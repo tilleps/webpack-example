@@ -11,3 +11,11 @@ Objectives:
 - Nightwatch?
 - Hot module loading
 
+
+
+## Getting Started ##
+
+Thanks for using Babel: we recommend using babel-preset-env now: please read babeljs.io/env to update! 
+
+http://babeljs.io/env
+
