@@ -10,7 +10,7 @@ var baseConfig = {
   mode: process.env.NODE_ENV === 'production' ? 'production' : 'development',
   entry: './src/apps/main/index.js',
   output: {
-    filename: 'main.js',
+    filename: '[name]',
     path: path.resolve(__dirname, 'dist')
   },
   
