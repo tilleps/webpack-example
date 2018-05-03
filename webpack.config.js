@@ -1,7 +1,7 @@
 const path = require('path');
 
 const CleanWebpackPlugin = require('clean-webpack-plugin');
-
+const LiveReloadPlugin = require('webpack-livereload-plugin');
 
 const getEntries = require('./lib/webpack')();
 
@@ -26,7 +26,10 @@ var baseConfig = {
       verbose: true, 
       dry: false,
       exclude: ['.gitignore', '.DS_Store']
-    })
+    }),
+    
+    
+    new LiveReloadPlugin({})
   ],
     
   module: {
