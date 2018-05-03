@@ -19,3 +19,10 @@ Thanks for using Babel: we recommend using babel-preset-env now: please read bab
 
 http://babeljs.io/env
 
+
+npm install --save-dev webpack webpack-cli
+npm install --save-dev style-loader css-loader
+npm install --save-dev clean-webpack-plugin
+
+
+
